@@ -2,3 +2,14 @@
     width: 1200px;
     margin: auto;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$maxHeight : 100%;
+
+.bordo-blu {
+    box-shadow: 0px -2px 0 0px blue inset;
+}
+
