@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <Header/>
+    <!-- <Main/> -->
+    <FooterUp/>
+    <FooterCentre/>
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -8,13 +11,19 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import Header from './components/Header.vue'
+import Header from './components/Header.vue';
+import FooterUp from './components/FooterUp.vue';
+import FooterCentre from './components/FooterCentre.vue';
+
+
 
 export default {
   name: 'App',
   components: {
     // HelloWorld
-    Header
+    Header,
+    FooterUp,
+    FooterCentre
   }
 }
 </script>
