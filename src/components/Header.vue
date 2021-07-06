@@ -1,5 +1,9 @@
 <template>
-  <header>ciao</header>
+  <header>
+    <div class="container">
+
+    </div>
+  </header>
 </template>
 
 <script>
@@ -9,5 +13,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+@import '../style/commons.scss'
+// .container {
+//   width: 1200px;
+// }
 </style>
