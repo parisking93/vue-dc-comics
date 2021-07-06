@@ -1,5 +1,5 @@
 <template>
-  <header></header>
+  <header>ciao</header>
 </template>
 
 <script>
