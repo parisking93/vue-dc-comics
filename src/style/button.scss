@@ -1,0 +1,11 @@
+@mixin button1($colore, $bordopx, $bordocl : $colore, $paddingX : 20px, $paddingY : 10px) {
+    padding: $paddingY $paddingX;
+    background-color: $colore;
+    border: $bordopx solid $bordocl;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        background-color: lighten($colore, 5%);
+    }
+
+}
