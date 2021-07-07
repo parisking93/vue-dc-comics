@@ -15,10 +15,32 @@
                     </ul>
                     <ul>
                         <li><h3 class="uppercase">shop</h3></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">shop dc</a></li>
+                        <li><a href="#">shop dc collectibles</a></li>
                     </ul>
                 </div>
+                <ul>
+                    <li><h3 class="uppercase">dc</h3></li>
+                    <li><a href="#">terms of use</a></li>
+                    <li><a href="#">privacy policy(new)</a></li>
+                    <li><a href="#">ad choices</a></li>
+                    <li><a href="#">advertising</a></li>
+                    <li><a href="#">jobs</a></li>
+                    <li><a href="#">subscritions</a></li>
+                    <li><a href="#">talent workshop</a></li>
+                    <li><a href="#">CPSC certificates</a></li>
+                    <li><a href="#">ratings</a></li>
+                    <li><a href="#">shop help</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+                <ul>
+                    <li><h3 class="uppercase">sites</h3></li>
+                    <li><a href="#">DC</a></li>
+                    <li><a href="#">MAD  magazine</a></li>
+                    <li><a href="#">DC  kids</a></li>
+                    <li><a href="#">DC universe</a></li>
+                    <li><a href="#">DC power visa</a></li>
+                </ul>
                 
 
             </div>
@@ -38,17 +60,22 @@ export default {
 <style lang="scss" scoped>
     @import '../style/commons.scss';
     @import '../style/commons-font.scss';
+    @import '../style/flex.scss';
     footer {
         background-image: url('../assets/img/footer-bg.jpg');
         // height: 500px;
         background-size: cover;
         .container.footer-centre {
-            display: flex;
+            @include my-flex;
 
             .box-liste {
-                width: 50%;
+                @include my-flex;
+                width: 30%;
+                padding: 50px 0;
+
                 ul {
                     list-style: none;
+                    margin: 30px 0;
                     li {
                         a {
                             text-decoration: none;
@@ -65,6 +92,7 @@ export default {
                 background-size: cover;
                 background-position: center;
             }
+
 
         }
     }

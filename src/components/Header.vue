@@ -78,10 +78,11 @@ export default {
 <style lang="scss" scoped>
   @import '../style/commons.scss';
   @import '../style/commons-font.scss';
+  @import '../style/flex.scss';
+
 
   .container.header {
-    display: flex;
-    justify-content: space-between;
+    @include my-flex;
     height: 120px;
     padding: 20px 0;
 

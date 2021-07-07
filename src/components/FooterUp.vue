@@ -45,16 +45,16 @@ export default {
 <style lang="scss" scoped>
     @import '../style/commons.scss';
     @import '../style/commons-font.scss';
+    @import '../style/flex.scss';
 
 
     footer {
         background: #0282f9;
     }
     .container.footer-up {
+        @include my-flex;
         height: 140px;
-        display: flex;
         align-items: center;
-        justify-content: space-between;
         padding: 40px;
     }
     .box-icon {
