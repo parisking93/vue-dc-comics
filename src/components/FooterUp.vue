@@ -53,7 +53,7 @@ export default {
     }
     .container.footer-up {
         @include my-flex;
-        height: 140px;
+        height: 120px;
         align-items: center;
         padding: 40px;
     }
@@ -66,7 +66,7 @@ export default {
             vertical-align: middle;
         }
         .ultima-img {
-            width: 60px;
+            width: 40px;
         }
         span {
             font-size: $fontSmall;
